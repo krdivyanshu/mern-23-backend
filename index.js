@@ -38,7 +38,7 @@ dotenv.config();
 
 // Let`s tackle cors.
 var corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://mern-23-frontend.vercel.app',
     // optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
     credentials: true,
